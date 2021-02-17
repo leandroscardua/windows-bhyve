@@ -105,7 +105,7 @@
             <RunSynchronous>
                 <RunSynchronousCommand wcm:action="add">
                     <Order>1</Order>
-                    <Path>e:\setup64 /s /v "/qb REBOOT=R"</Path>
+                    <Path>e:\virtio-win-gt-x64.msi /qn /norestart ADDLOCAL=ALL</Path>
                     <Description>Installing VMware Tools</Description>
                 </RunSynchronousCommand>
             </RunSynchronous>
