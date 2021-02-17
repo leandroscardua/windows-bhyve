@@ -105,7 +105,7 @@
             <RunSynchronous>
                 <RunSynchronousCommand wcm:action="add">
                     <Order>1</Order>
-                    <Path>e:\virtio-win-gt-x64.msi /qn /norestart ADDLOCAL=ALL</Path>
+                    <Path>e:\virtio-win-gt-x64.msi /qn /norestart ADDLOCAL=FE_network_driver,FE_pvpanic_driver,FE_qemufwcfg_driver,FE_qemupciserial_driver,FE_vioinput_driver,FE_viorng_driver,FE_vioscsi_driver,FE_vioserial_driver,FE_viostor_driver</Path>
                     <Description>Installing VMware Tools</Description>
                 </RunSynchronousCommand>
             </RunSynchronous>
